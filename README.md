@@ -40,6 +40,7 @@ mysql.init_app(app)
 
 1. In Visual Studio Code
    - run the `app.py` file
+   ![image](https://user-images.githubusercontent.com/94662590/211140878-4381fc4c-d9e2-4519-92b9-03244c0c093e.png)
 2. Standalone
    - open all the `.html` files first in the `templates` folder first (App will crash if not done first)
    - run the `app.py` file
