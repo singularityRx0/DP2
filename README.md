@@ -1,5 +1,15 @@
 # Dp2
 
+## Task LIst
+- [x] Sign-up module
+- [x] Sign-in module
+- [x] Log out module
+- [x] Attendee data module
+- [x] Attendence log module
+- [ ] Arduino to python module
+- [x] UID validation, Insert into database
+- [ ] All tasks are complete :tada:
+
 ## **Project uses `MySQL` not `MsSQL`**
 [MySQL download link](https://dev.mysql.com/downloads/windows/installer/8.0.html).\
 download the one with `431MB`
