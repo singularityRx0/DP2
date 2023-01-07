@@ -8,10 +8,10 @@ import datetime
 app = Flask(__name__)
 
 # MySQL configurations
-app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = '0128628711lzH@'
+app.config['MYSQL_DATABASE_USER'] = 'root' #commonly named rooy
+app.config['MYSQL_DATABASE_PASSWORD'] = ''
 app.config['MYSQL_DATABASE_DB'] = 'arduino_attendence'
-app.config['MYSQL_DATABASE_HOST'] = 'localhost'
+app.config['MYSQL_DATABASE_HOST'] = 'localhost' #commonly named rooy
 mysql = MySQL()
 mysql.init_app(app)
 
