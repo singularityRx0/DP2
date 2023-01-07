@@ -10,12 +10,16 @@
 - [x] UID validation, Insert into database
 - [ ] All tasks are complete :tada:
 
+
+
 ## **Project uses `MySQL` not `MsSQL`**
 [MySQL download link](https://dev.mysql.com/downloads/windows/installer/8.0.html).\
 download the one with `431MB`
 
 Once downloaded, move the folder `arduino_attendence` to your `MySQL` save directory. This folder contains all the tables and store procedures.\
 It can be found in `C:\ProgramData\MySQL\MySQL Server 8.0\Data`. 
+
+
 
 ## Libraries used
 Flask, to install `py -m pip install flask` \
