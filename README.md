@@ -40,7 +40,6 @@ mysql.init_app(app)
 
 1. In Visual Studio Code
    - run the `app.py` file
+   - The link to open the website will be given in the `python` terminal. (ctrl+left click) to open the link.
+   - http://localhost:5000/  can also be used to open the website if the `app.py` is running
    ![image](https://user-images.githubusercontent.com/94662590/211140878-4381fc4c-d9e2-4519-92b9-03244c0c093e.png)
-2. Standalone
-   - open all the `.html` files first in the `templates` folder first (App will crash if not done first)
-   - run the `app.py` file
