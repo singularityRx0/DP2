@@ -1,6 +1,6 @@
 # Dp2
 
-### Project uses `MySQL` not `MsSQL`
+## **Project uses `MySQL` not `MsSQL`**
 [MySQL download link](https://dev.mysql.com/downloads/windows/installer/8.0.html).\
 download the one with `431MB`
 
