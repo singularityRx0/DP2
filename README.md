@@ -25,3 +25,11 @@ app.config['MYSQL_DATABASE_HOST'] = 'localhost' #commonly named localhost
 mysql = MySQL()
 mysql.init_app(app)
 ```
+
+## Running the app
+
+1. In Visual Studio Code
+   - run the `app.py` 
+2. Standalone
+   - open all the `.html` files first in the `templates` folder first (App will crash if not done first)
+   - run the `app.py` 
