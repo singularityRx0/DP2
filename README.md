@@ -26,7 +26,7 @@ Serial, to install `py -m pip install pyserial`
 
 ## Connect to `MySQL` 
 
-from file `app.py` change the configs from `line 10` to `line13`
+from file `app.py` change the configs on `line 10` to `line13`
 ```
 app.config['MYSQL_DATABASE_USER'] = 'root' `#commonly named root
 app.config['MYSQL_DATABASE_PASSWORD'] = ' '
