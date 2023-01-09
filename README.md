@@ -22,9 +22,12 @@ It can be found in `C:\ProgramData\MySQL\MySQL Server 8.0\Data`.
 
 
 ## Libraries used
-Flask, to install `py -m pip install flask` \
-Flask-MySQL, to install `py -m pip install flask-mysql`\
-Serial, to install `py -m pip install pyserial`
+**Library** | **Install**
+--- | --- 
+Flask | `py -m pip install flask`
+Flask-MySQL | `py -m pip install flask-mysql`
+Serial | `py -m pip install pyserial`
+
 
 
 ## Importing the database
