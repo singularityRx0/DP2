@@ -1,3 +1,7 @@
+######################################################
+#####         TEST FILE (Can be deleted)	 #####
+######################################################
+
 from app import mysql, datetime
 
 current_date = datetime.date.today()
