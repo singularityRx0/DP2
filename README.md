@@ -27,11 +27,34 @@ Flask-MySQL, to install `py -m pip install flask-mysql`\
 Serial, to install `py -m pip install pyserial`
 
 
+## Download the database
+To do this you need to open **MySQL 8.0 Command Line Client** which can be found by using window search\
+
+<img src="https://user-images.githubusercontent.com/94662590/211267974-10fd4f59-b1dc-4b60-aa68-e55cbee20053.png" width=50% height=50%>
+
+1. Enter your password and then create a new database. 
+2. Then find the file path for the file `arduino_attendence.sql` in the folder `arduino_attendence` from the `DP2-main` folder after extracting the .zip folder.  
+   **example:** `C:\Users\User\Downloads\DP2-main\DP2-main\arduino_attendence\arduino_attendence.sql`
+   ```MySQL
+   create database arduino_attendence;
+   use arduino_attendence
+   source C:\Users\User\Downloads\DP2-main\DP2-main\arduino_attendence\arduino_attendence.sql
+   ```
+   Enter the code one by one\
+   What it would look like : **(example as it may differ for others)**
+   
+   <img src="https://user-images.githubusercontent.com/94662590/211270787-b1eda236-1b4f-49d6-9926-24c1a197189d.png" width=70% height=50%>
+   
+3. The `store procedures` has to be executed one-by-one in the `MySQL workbench` as it is not found in the `arduino_attendence.sql`.\
+   Code can be copy and pased into the workbench. Store Procedures are named with `sp_` in the front.
+
+
+
 
 ## Connect to `MySQL` 
 
 from file `app.py` change the configs on `line 10` to `line14`
-```
+```python
 app.config['MYSQL_DATABASE_USER'] = 'root' `#commonly named root
 app.config['MYSQL_DATABASE_PASSWORD'] = ' '
 app.config['MYSQL_DATABASE_DB'] = ' '
