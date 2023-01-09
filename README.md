@@ -6,8 +6,10 @@
 - [x] Log out module
 - [x] Attendee data module
 - [x] Attendence log module
-- [ ] Arduino to python module
+- [x] Arduino UID data to python module
 - [x] UID validation, Insert into database
+- [ ] Arduino Fingerprint data to python module
+- [ ] Fingerprint validation, Insert into database
 - [ ] All tasks are complete :tada:
 
 
