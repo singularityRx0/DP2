@@ -38,12 +38,13 @@ To do this you need to open **MySQL 8.0 Command Line Client** which can be found
 1. Enter your password and then create a new database. 
 2. Then find the file path for the file `arduino_attendence.sql` in the folder `arduino_attendence` from the `DP2-main` folder after extracting the .zip folder.  
    **example:** `C:\Users\User\Downloads\DP2-main\DP2-main\arduino_attendence\arduino_attendence.sql`
+   
+   **Code:**
    ```MySQL
    create database arduino_attendence;
    use arduino_attendence
    source C:\Users\User\Downloads\DP2-main\DP2-main\arduino_attendence\arduino_attendence.sql
    ```
-   Enter the code one by one\
    What it would look like : **(example as it may differ for others)**
    
    <img src="https://user-images.githubusercontent.com/94662590/211270787-b1eda236-1b4f-49d6-9926-24c1a197189d.png" width=70% height=50%>
