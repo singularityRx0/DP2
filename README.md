@@ -28,7 +28,7 @@ Serial, to install `py -m pip install pyserial`
 
 
 ## Importing the database
-To do this you need to open **MySQL 8.0 Command Line Client** which can be found by using window search\
+To do this you need to open **MySQL 8.0 Command Line Client** which can be found by using window search
 
 <img src="https://user-images.githubusercontent.com/94662590/211267974-10fd4f59-b1dc-4b60-aa68-e55cbee20053.png" width=50% height=50%>
 
