@@ -55,7 +55,7 @@ To do this you need to open **MySQL 8.0 Command Line Client** which can be found
 
 from file `app.py` change the configs on `line 10` to `line14`
 ```python
-app.config['MYSQL_DATABASE_USER'] = 'root' `#commonly named root
+app.config['MYSQL_DATABASE_USER'] = 'root' #commonly named root
 app.config['MYSQL_DATABASE_PASSWORD'] = ' '
 app.config['MYSQL_DATABASE_DB'] = ' '
 app.config['MYSQL_DATABASE_HOST'] = 'localhost' #commonly named localhost
