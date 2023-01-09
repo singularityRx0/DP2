@@ -70,4 +70,6 @@ mysql.init_app(app)
    - The link to open the website will be given in the `python` terminal. (ctrl+left click) to open the link.
    - http://localhost:5000/  can also be used to open the website if the `app.py` is running
    
+   - If an arduino is connected, change the com port that is communicating with the arduino in `arduino_comm.py` and run `arduino_comm.py`
+   
    ![image](https://user-images.githubusercontent.com/94662590/211275292-e82b683d-2edf-4481-a9c8-4fd19fba1411.png)
