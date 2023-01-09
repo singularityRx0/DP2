@@ -72,7 +72,7 @@ mysql.init_app(app)
    
    ![image](https://user-images.githubusercontent.com/94662590/211275292-e82b683d-2edf-4481-a9c8-4fd19fba1411.png)
    
-   - If an arduino is connected, change the com port that is communicating with the arduino in `arduino_comm.py` and run `arduino_comm.py`
+   - If an arduino is connected, change the com port to one that is communicating with the arduino in `arduino_comm.py` and run `arduino_comm.py`
    ```python
    arduino = serial.Serial(port = 'COM10', baudrate = 9600, timeout=1)
    ```
