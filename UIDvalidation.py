@@ -61,6 +61,6 @@ def validateUID(UID):
 	#INSERT into `'2023-01-06_attendencelog'` (name, UID, timeStamp) 
 	#value ( (select(name) from `students` where UID = '4d 3f 5'), '4362', '23545')
 	finally:
-		#cursor.close()
-		#conn.close()
+		cursor.close()
+		conn.close()
 		pass
