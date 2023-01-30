@@ -25,12 +25,15 @@
 		<nav
 			class="border-bottom flex-wrap mb-2 py-3 d-flex justify-content-center"
 		>
+            
 			<a
 				href="/"
 				class="text-dark text-decoration-none mb-3 mb-md-0 d-flex align-items-center me-md-auto"
+                style="margin:auto; text-align:grid;"
 			>
 				<span class="fs-4">Python Flask App</span>
-			</a>
+			</a> 
+            
 
 			<ul class="nav nav-pills">
 				<li class="nav-item">
@@ -81,7 +84,7 @@
             <div class="modal-content">
    
                 <div class="modal-header">
-                    <h5 class="modal-title text-primary" style="align-content: center;">Please Add New Student</h5>    
+                    <h5 class="modal-title text-primary" style="align-content: center;">Student Details</h5>    
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -102,7 +105,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Phone Number</label>
+                            <label>Matric Number</label>
                             <input name="phone" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Phone Number">
                         </div>
 
@@ -111,7 +114,7 @@
                             <input name="UID" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter UID">
                         </div>
 
-                          <button type="submit" class="btn btn-primary mb-2">Save</button>
+                          <button type="submit" class="btn btn-success mb-2">Confirm</button>
                      
                       </form>
 
@@ -131,10 +134,10 @@
 <table class="table table-hover">
     <thead>
         <tr>
-            <th scope="col">S/N</th>
+            <th scope="col">Key</th>
             <th scope="col">Name</th>
             <th scope="col">Email</th>
-            <th scope="col">Phone</th>
+            <th scope="col">Matric Number</th>
             <th scope="col">UID</th>
             <th scope="col">Action</th>
         </tr>
@@ -149,7 +152,7 @@
         <td>{{row.4}}</td>
         <td>
             <a href="/update/{{row.0}}" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#modaledit{{row.0}}">Edit</a>
-            <a href="/delete/{{ row.0 }}" onclick="return confirm('Are Sure Want To Deleted ?')" class="btn btn-danger btn-sm">Delete</a>
+            <a href="/delete/{{ row.0 }}" onclick="return confirm('Are you sure you want to delete this? This action cannot undone.')" class="btn btn-danger btn-sm">Delete</a>
 
         </td>
     </tr>
@@ -183,8 +186,8 @@
                             </div>
     
                             <div class="form-group">
-                                <label>Phone Number</label>
-                                <input value="{{row.3}}" name="phone" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Phone Number">
+                                <label>Matric Number</label>
+                                <input value="{{row.3}}" name="phone" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Matric Number">
                             </div>
 
                             <div class="form-group">
@@ -192,7 +195,7 @@
                                 <input value="{{row.4}}" name="UID" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter UID">
                             </div>
     
-                              <button type="submit" class="btn btn-success mb-2">Update</button>
+                              <button type="submit" class="btn btn-success mb-2">Confirm</button>
                          
                           </form>
     
@@ -223,7 +226,7 @@
 
 		<footer class="footer">
 				
-			<p>&copy; Company 2022</p>
+			<p>&copy; Group 10 DP2</p>
 			
 		</footer>
 
