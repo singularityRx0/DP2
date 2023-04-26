@@ -8,9 +8,9 @@
 - [x] Attendence log module
 - [x] Arduino UID data to python module
 - [x] UID validation, Insert into database
-- [ ] Arduino Fingerprint data to python module
-- [ ] Fingerprint validation, Insert into database
-- [ ] All tasks are complete :tada:
+- [x] Arduino Fingerprint data to python module
+- [x] Fingerprint validation, Insert into database
+- [x] All tasks are complete :tada:
 
 
 
